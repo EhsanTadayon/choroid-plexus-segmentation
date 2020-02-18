@@ -18,8 +18,10 @@ Our paper describing this lightweight algorithm with potential implications for 
  <img src="./docs/samples.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
 
 <h3> Required packages</h3>
-+FSL and Freesurfer
-+Python: nibabel, sklearn, numpy 
+
+* FSL
+* Freesurfer
+* Python: nibabel, sklearn, numpy 
 
 <h3> How to run the code</h3>
 The current version of the script requires Freesurfer processed files (recon-all) for ventricular segmentation. In future, we aim to add the possibility to use other ventricular segmetnation algorithms to speed up the process. After running recon-all, you can get the choroid plexus segmentation as follows: 
