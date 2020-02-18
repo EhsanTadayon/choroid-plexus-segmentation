@@ -6,7 +6,7 @@ Studies of choroid plexus have recently gained attention. Given its role in CSF 
 
 <img src="./docs/pipeline.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
 
-<h2>Comparing GMM, Freesurfer against Manual Segmentation in 20 subjects of Human Connectome Project (HCP) dataset</h2>
+<h2>Comparing GMM andFreesurfer against Manual Segmentation (MS) in 20 subjects of Human Connectome Project (HCP) dataset</h2>
 
 MS<sub>NC</sub>: Manual Segmentation usign T1-weighted MRIs with No Contrast
 MS<sub>NC1/2</sub>: MS performed by researcher 1 or 2 
