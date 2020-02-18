@@ -7,8 +7,8 @@ Studies of choroid plexus have recently gained attention. Given its role in CSF 
 <img src="./docs/pipeline.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
 
 <h2> Required packages</h2>
-- FSL and Freesurfer
-- Python: nibabel, sklearn, numpy 
++FSL and Freesurfer
++Python: nibabel, sklearn, numpy 
 
 <h2>Comparing GMM and Freesurfer against Manual Segmentation (MS) in 20 subjects of Human Connectome Project (HCP) dataset</h2>
 <img src="./docs/performance.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
