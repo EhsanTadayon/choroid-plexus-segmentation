@@ -4,9 +4,17 @@
  
 The figure below shows the overal pipeline:
 
-<img src="./docs/pipeline.png">
+<img src="./docs/pipeline.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
+
+Comparing GMM, Freesurfer against manual segmentation using Dice Coefficient (DC),  which measures segmentation overlap similarity in 20 subjects of Human Connectome Project (HCP): 
+
+<img src="./docs/performance.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
+
+Choroid plexus segmentation for three representative subjects from Human Connectome Project dataset using Freesurfer and GMM: 
  
-<img src="./docs/three_hcp_subjects.png" display="block" margin-left="auto" margin-right="auto" width="50%">
+<img src="./docs/samples.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
+
+
 
 
 
