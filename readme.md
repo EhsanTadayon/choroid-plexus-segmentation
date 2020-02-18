@@ -4,23 +4,33 @@ Studies of choroid plexus have recently gained attention. Given its role in CSF 
 
 Our paper describing this lightweight algorithm with potential implications for multi-modal neuroimaging studies of choroid plexus in dementia has been accepted for publication in the <b><i>Journal of Alzheimer's Disease (JAD)</b></i>. 
  
-<h2>Pipeline</h2>
+<h3>Pipeline</h3>
 
 <img src="./docs/pipeline.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
 
-<h2> Required packages</h2>
-+FSL and Freesurfer
-+Python: nibabel, sklearn, numpy 
-
-<h2>Comparing GMM and Freesurfer against Manual Segmentation (MS) in 20 subjects of Human Connectome Project (HCP) dataset</h2>
+<h3>Comparing GMM and Freesurfer against Manual Segmentation (MS) in 20 subjects of Human Connectome Project (HCP) dataset</h3>
 <img src="./docs/performance.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
 <b>MS<sub>NC</sub>:</b> Manual Segmentation usign T1-weighted MRIs with No Contrast<br>
 <b>MS<sub>NC1/2</sub>:</b> MS performed by researcher 1 or 2<br>
 <b>Dice Coefficient (DC):</b> A metric that calculates spatial similarity between two segmentations
 
-<h2>Choroid plexus segmentation for three representative subjects of HCP dataset using Freesurfer and GMM</h2> 
+<h3>Choroid plexus segmentation for three representative subjects of HCP dataset using Freesurfer and GMM</h3> 
  <img src="./docs/samples.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
 
+<h3> Required packages</h3>
++FSL and Freesurfer
++Python: nibabel, sklearn, numpy 
+
+<h3> How to run the code</h3>
+The current version of the script requires Freesurfer processed files (recon-all) for ventricular segmentation. In future, we aim to add the possibility to use other ventricular segmetnation algorithms to speed up the process. After running recon-all, you can get the choroid plexus segmentation as follows: 
+
+In the terminal:
+```bash
+python run_gmm_chp_segmentation.py <freesurfer_subjects_dir> <subject_id>
+```
+The resulting choroid plexus segmentation can be found under `<freesurfer_subjects_dir><subject_id>mri/choroid_susan_segmentation.nii.gz`
+
+<h3>Contact</h3>
 For further questions, please email me at stadayon@bidmc.harvard.edu or sunny.tadayon@gmail.com. 
 
 
