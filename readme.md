@@ -6,19 +6,21 @@ Studies of choroid plexus have recently gained attention. Given its role in CSF 
 
 <img src="./docs/pipeline.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
 
-<h2>Comparing GMM andFreesurfer against Manual Segmentation (MS) in 20 subjects of Human Connectome Project (HCP) dataset</h2>
+<h2> Required packages</h2>
+⋅⋅* FSL and Freesurfer
+..* Python: nibabel, sklearn, numpy 
 
-MS<sub>NC</sub>: Manual Segmentation usign T1-weighted MRIs with No Contrast
-MS<sub>NC1/2</sub>: MS performed by researcher 1 or 2 
-Dice Coefficient (DC): A metric that calculates spatial similarity between two segmentations
-
+<h2>Comparing GMM and Freesurfer against Manual Segmentation (MS) in 20 subjects of Human Connectome Project (HCP) dataset</h2>
 <img src="./docs/performance.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
+<b>MS<sub>NC</sub>:</b> Manual Segmentation usign T1-weighted MRIs with No Contrast<br>
+<b>MS<sub>NC1/2</sub>:</b> MS performed by researcher 1 or 2<br>
+<b>Dice Coefficient (DC):</b> A metric that calculates spatial similarity between two segmentations
 
 <h2>Choroid plexus segmentation for three representative subjects of HCP dataset using Freesurfer and GMM</h2> 
- 
-<img src="./docs/samples.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
+ <img src="./docs/samples.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
 
 For further questions, please email me at stadayon@bidmc.harvard.edu or sunny.tadayon@gmail.com. 
+
 
 
 
