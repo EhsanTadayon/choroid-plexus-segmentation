@@ -1,6 +1,6 @@
 # Choroid plexus segmentation using Gaussian Mixture Models (GMM)
 
- Studies of choroid plexus have recently gained momentum, given its role in CSF production as well as CSF clearance. T1-weighted MRIs provide a non-invasive imaging technique to study the morphological characteristics of choroid plexus and also enable more advanced functional and perfusion imaging given their abilitiy to segment choroid plexus accurately. Previous studies have used Freesurfer for automatic choroid plexus segmentation. Here, we present a lightweight algorithm that aims to improve choroid plexus segmentation using Gaussian Mixture Models (GMM). We tested the accuracy of the algorithm against manual segmentations as well as Freesurfer. Our paper describing this lightweight algorithm with potential implications for multi-modal neuroimaging studies in Dementia has been accepted for publication in Journal of Alzheimer's Disease (JAD). 
+Studies of choroid plexus have recently gained attention. Given its role in CSF production, choroid plexus plays a crucial role in CSF-based clearance systems. Moreover, choroid plexus epithelium is lined with numerous transporters that transport various CSF proteins including Aβ to the blood. T1-weighted MRIs provide a non-invasive imaging technique to study the morphological characteristics of choroid plexus and also enable more advanced functional and perfusion imaging, given their abilitiy to segment choroid plexus accurately. Previous studies have used Freesurfer for automatic choroid plexus segmentation. Here, we present a lightweight algorithm that aims to improve choroid plexus segmentation using Gaussian Mixture Models (GMM). We tested the accuracy of the algorithm against manual segmentations as well as Freesurfer. Our paper describing this lightweight algorithm with potential implications for multi-modal neuroimaging studies of choroid plexus in dementia has been accepted for publication in the Journal of Alzheimer's Disease (JAD). 
  
 <h2>Pipeline</h2>
 
@@ -18,7 +18,7 @@ Dice Coefficient (DC): A metric that calculates spatial similarity between two s
  
 <img src="./docs/samples.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
 
-
+For further questions, please email me at stadayon@bidmc.harvard.edu or sunny.tadayon@gmail.com. 
 
 
 
