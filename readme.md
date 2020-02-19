@@ -10,7 +10,7 @@ Our paper describing this lightweight algorithm with potential implications for 
 
 <h3>Comparing GMM and Freesurfer against Manual Segmentation (MS) in 20 subjects of Human Connectome Project (HCP) dataset</h3>
 <img src="./docs/performance.png" style="display: block; margin-left: auto; margin-right: auto;width: 50%">
-<b>MS<sub>NC</sub>:</b> Manual Segmentation usign T1-weighted MRIs with No Contrast<br>
+<b>MS<sub>NC</sub>:</b> Manual Segmentation using T1-weighted MRIs with No Contrast<br>
 <b>MS<sub>NC1/2</sub>:</b> MS performed by researcher 1 or 2<br>
 <b>Dice Coefficient (DC):</b> A metric that calculates spatial similarity between two segmentations
 
