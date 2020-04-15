@@ -2,8 +2,10 @@
 
 Studies of choroid plexus have recently gained attention. Given its role in CSF production, choroid plexus plays a crucial role in CSF-based clearance systems. Moreover, choroid plexus epithelium is lined with numerous transporters that transport various CSF proteins including Aβ to the blood. T1-weighted MRIs provide a non-invasive imaging technique to study the morphological characteristics of choroid plexus and also enable more advanced functional and perfusion imaging studies. Previous studies have used Freesurfer for automatic choroid plexus segmentation. Here, we present a lightweight algorithm that aims to improve choroid plexus segmentation using Gaussian Mixture Models (GMM). We tested the accuracy of the algorithm against manual segmentations as well as Freesurfer. 
 
-Our paper describing this lightweight algorithm with potential implications for multi-modal neuroimaging studies of choroid plexus in dementia is published: 
-<em>Improving Choroid Plexus Segmentation in the Healthy and Diseased Brain: Relevance for Tau-PET Imaging in Dementia. Journal of Alzheimer's Disease</em>
+<h4>Citation</h4>
+Our paper describing this lightweight algorithm with potential implications for multi-modal neuroimaging studies of choroid plexus in dementia is published. If you use ChP-GMM segmentation, please cite our paper: 
+
+<em> Tadayon, E., Moret, B., Sprugnoli, G., Monti, L., Pascual-Leone, A., Santarnecchi, E. and Alzheimer’s Disease Neuroimaging Initiative, 2020. <b>Improving Choroid Plexus Segmentation in the Healthy and Diseased Brain: Relevance for Tau-PET Imaging in Dementia. Journal of Alzheimer's Disease</b></em>
 </b></i>. 
  
 <h3>Pipeline</h3>
