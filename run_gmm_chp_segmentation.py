@@ -1,3 +1,7 @@
+### ChP-Seg: A lightweight python script for accurate segmentation of choroid plexus 
+## Author: Ehsan Tadayon, MD
+## Date: 2019
+
 import numpy as np
 import nibabel as nib
 from sklearn.mixture import GaussianMixture,BayesianGaussianMixture
@@ -5,13 +9,8 @@ import sys
 import subprocess
 
 ### parameters
-
 subjects_dir= sys.argv[1]
-
 subj = sys.argv[2]
-
-
-
 
 ### functions
 
@@ -41,7 +40,6 @@ def save_segmentation(clf,out_name):
                                                                                 subj=subj,
                                                                                 out_name=out_name))
 
-
 def susan(input_img): 
     input_img = input_img.split('.nii')[0]
     cmd='susan {input_img}.nii.gz 1 1 3 1 0 {input_img}_susan.nii.gz'.format(input_img = input_img)
@@ -58,13 +56,10 @@ def show_error(err):
     if len(err) > 0: 
         print(err)
         
-   
-
 
 # reading the T1 volume under freesurfer
 
 T1 = nib.load('{subjects_dir}/{subj}/mri/T1.mgz'.format(subjects_dir=subjects_dir,subj=subj)).get_data()
-
 
 
 # creating a mask for both ventricles and choroid plexus: 
@@ -190,26 +185,10 @@ def write_stats(input_img,fname):
     stat = out.split('\n')[0].split(' ')[0]
     f = open(fname,'w')
     f.write(stat)
-
-
-
+    
+    
 for img in ['lh_choroid_gmmb_mask','lh_choroid_susan_segmentation','rh_choroid_gmmb_mask','rh_choroid_susan_segmentation','aseg_choroid']:
     input_img = '{subjects_dir}/{subj}/mri/{img}.nii.gz'.format(subjects_dir=subjects_dir, subj=subj, img = img)
     fname='{subjects_dir}/{subj}/mri/{img}_stat.txt'.format(subjects_dir=subjects_dir, subj=subj, img=img)
     write_stats(input_img,fname=fname)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
