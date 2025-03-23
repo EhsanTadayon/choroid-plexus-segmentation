@@ -28,13 +28,13 @@ Our paper describing this lightweight algorithm with potential implications for 
 * Python: nibabel, sklearn, numpy 
 
 <h3> How to run the code</h3>
-The current version of the script requires Freesurfer processed files (recon-all) for ventricular segmentation. In future, we aim to add the possibility to use other ventricular segmetnation algorithms to speed up the process. After running recon-all, you can get the choroid plexus segmentation as follows: 
+The current version of the script requires Freesurfer processed files (recon-all) for ventricular segmentation. In future, we aim to add the possibility to use other ventricular segmentation algorithms to speed up the process. After running recon-all, you can get the choroid plexus segmentation as follows: 
 
 In the terminal:
 ```bash
 python run_gmm_chp_segmentation.py <freesurfer_subjects_dir> <subject_id>
 ```
-The resulting choroid plexus segmentation can be found under `<freesurfer_subjects_dir><subject_id>mri/choroid_susan_segmentation.nii.gz`
+The resulting choroid plexus segmentation can be found under `<freesurfer_subjects_dir>/<subject_id>/mri/choroid_susan_segmentation.nii.gz`
 
 <h3>Contact</h3>
 For further questions, please email me at <a href="mailto:ehsan.tadayon84@gmail.com">ehsan.tadayon84@gmail.com</a>. 
