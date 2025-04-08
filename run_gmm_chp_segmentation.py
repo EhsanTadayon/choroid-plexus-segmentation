@@ -221,7 +221,7 @@ def main():
         'lh_choroid_susan_segmentation',
         'rh_choroid_gmmb_mask',
         'rh_choroid_susan_segmentation',
-        'aseg_choroid'
+        'choroid_susan_segmentation'
     ]
 
     for img in img_names:
