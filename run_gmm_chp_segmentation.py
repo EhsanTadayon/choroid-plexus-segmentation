@@ -98,7 +98,7 @@ def main():
     T1 = nib.load(t1_path).get_fdata()
 
     # Create masks for choroid and ventricle segmentation
-    print('Creating masks: choroid+ventricle.mgz and aseg_choroid.mgz')
+    print('Creating masks: choroid+ventricle_mask.nii.gz and aseg_choroid_mask.nii.gz')
     cmd = (
         f'mri_binarize --i {subjects_dir}/{subj}/mri/aseg.mgz '
         f'--match 31 63 --o {subjects_dir}/{subj}/mri/aseg_choroid_mask.nii.gz'
